@@ -17,7 +17,7 @@ const knowledge = {
   }
 };
 
-// WhatsApp client - THIS MUST BE DEFINED!
+// WhatsApp client - THIS MUST BE AT THE TOP!
 const client = new Client({
   authStrategy: new LocalAuth()
 });
